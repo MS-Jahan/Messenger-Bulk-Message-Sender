@@ -1,9 +1,9 @@
 # Messenger-Bulk-Message-Sender
 
 ## Installation
-1. Install python3 in your machine.
+1. Install [Python3](https://www.python.org/download/releases/3.0/) in your machine.
 2. Install `selenium`for python3 using pip. It is usually done from cmd or terminal. Command: `pip3 install selenium`
-3. Download [chromedriver](https://chromedriver.chromium.org/downloads). Check your browser version and the chromedriver version. Extract the downloaded zip. Copy the file in the same directory of `main.py` file.
+3. Download [chromedriver](https://chromedriver.chromium.org/downloads). Check your browser version and the chromedriver version. Extract the downloaded zip. Copy the file in the same directory of `main.py` file. If you are on Windows, put an extra `.exe` after `./chromedriver` in both `authenticate.py` and `main.py` file at line 10 (like `"./chromedriver.exe"`).
 4. Now read from **Step 1** again and check in everything is done properly! 😉
 
 ## Usage
