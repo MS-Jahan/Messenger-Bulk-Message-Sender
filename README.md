@@ -4,7 +4,7 @@
 1. Install [Python3](https://www.python.org/download/releases/3.0/) in your machine.
 2. Install `selenium`for python3 using pip. It is usually done from cmd or terminal. Command: `pip3 install selenium`
 3. Download [chromedriver](https://chromedriver.chromium.org/downloads). Check your browser version and the chromedriver version. Extract the downloaded zip. Copy the file in the same directory of `main.py` file. If you are on Windows, put an extra `.exe` after `./chromedriver` in both `authenticate.py` and `main.py` file at line 10 (like `"./chromedriver.exe"`).
-4. Now read from **Step 1** again and check in everything is done properly! 😉
+4. Now read from **Step 1** again and check if everything is done properly! 😉
 
 ## Usage
  1. Place you Facebook username and password in `authenticate.py` file and run the file once. This will save all cookies and other site data to perform like normal browser to Facebook next time.
