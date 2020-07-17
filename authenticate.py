@@ -8,7 +8,8 @@ chrome_options = Options()
 chrome_options.add_argument("--user-data-dir=chrome-data")
 
 browser = webdriver.Chrome(executable_path = "./chromedriver", options=chrome_options)
-chrome_options.add_argument("user-data-dir=chrome-data")
+browser.get('https://www.facebook.com')
+#chrome_options.add_argument("user-data-dir=chrome-data")
 
 fb_username = "YOUR MOBILE/EMAIL/USERNAME"
 fb_password = "YOUR PASSWORD"
